@@ -12,10 +12,11 @@ import TotalProductsList from './components/TotalProducts';
 function App() { 
   const [filteredProducts, setFilteredProducts] = useState();
   const [selectedSize, setSelectedSize] = useState()
-  console.log(filteredProducts , '===')
+  // console.log(filteredProducts , '===')
   return (
     <div className="container">
       <div className='Navbar'><img src={img} width='100px' height='100px'/>E-Commerce</div>
+      <div className='TotalProducts'>Products Available:{products.length}</div>
       <div className='main-container'>
       <div className='sidebar'>
         <div className='FilterTitle'>Filters</div>
@@ -24,11 +25,11 @@ function App() {
               <Size setSelectedSize={setSelectedSize}/>
           <Filter setFilteredProducts={setFilteredProducts}/>
         </div>
-        {/* <TotalProductsList/> */}
-      
+
       </div>
       <div className='product-Container'>
         <div className='products'>
+        
         { selectedSize && filteredProducts ?
           products?.filter((ele) => ele.availableSizes?.includes(selectedSize))?.filter(e => e.type === filteredProducts)?.map((data)=>{
             return(
@@ -41,13 +42,15 @@ function App() {
           }) : filteredProducts ? products?.filter((ele) => ele.type === filteredProducts)?.map((data)=>{
             return(
           <ProductList data ={data} />
-            )
+            ) 
           }) : products.map((data) => {
             return (
+              <div>
               <ProductList data ={data} />
+              {console.log(data.length)}
+              </div>
             )
           })
-
           
         }
         </div>

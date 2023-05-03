@@ -8,7 +8,7 @@ function TotalProductsList() {
 
   return (
     <div>
-      <p>Total Available Products: {totalProducts}</p>
+      <p>Total Available Products: {products.length}</p>
       <ul>
         {products.map(product => (
           <li key={products.id}>
