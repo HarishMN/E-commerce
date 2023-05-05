@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Button, Modal } from 'react-bootstrap';
 import img from '../asstes/Images/img1.1-product.webp'
+import Size from './Size';
 // import UseClickOutside from './UseClickOutSide';
 // import img from '../asstes/Images/-1-product.webp'
 function ProductList({data, setFilteredProducts}) {
@@ -8,7 +9,7 @@ function ProductList({data, setFilteredProducts}) {
  const [show, setShow] = useState(false);
  const handleClose = () => setShow(false);
  const handleShow = () => setShow(true);
- 
+
   return (
     <>
 
@@ -46,7 +47,22 @@ function ProductList({data, setFilteredProducts}) {
             {data.price}
         </div>
         <div style={{padding:'20px'}} >{data.description} </div>
-        <div>{'Available sizes: '}{data.availableSizes.toString()}</div>
+        <div className=''>{'Available sizes: '}{data.availableSizes.toString()}</div>
+        <div
+        
+        // display: flex;
+        // flex-wrap: wrap;
+        // padding-right: 10PX;
+        // padding-left: 10px;
+        // gap: 10px;
+        // padding-bottom: 10px;
+        >
+            {/* {data?.availableSizes?.map((data)=>{
+                return(
+                    <Size setSelectedSize ={data}/>
+                )
+            })} */}
+        </div>
         </div>  
         {/* </UseClickOutside> */}
     </Modal>

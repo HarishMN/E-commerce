@@ -9,8 +9,10 @@ const Size =({setSelectedSize})=>{
         <>
         {availableSizes?.map((ele, i) => (
 
-            <div className="size-container">
-            <div className="size-text"  onClick={() => takeSize(ele)} >{ele}</div>
+            <div className="size-container"
+            onClick={() => takeSize(ele)}
+            >
+            <div className="size-text"  >{ele}</div>
         </div>
             ))}
             </>
