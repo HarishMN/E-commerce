@@ -27,6 +27,7 @@ export const products= [
           "style": "White T-shirt",
           "title": "Cropped Stay Groovy off white",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img1}`
         },
         {
@@ -41,6 +42,7 @@ export const products= [
           "style": "Wine",
           "title": "Basic Cactus White T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img2}`
         },
         {
@@ -55,6 +57,7 @@ export const products= [
           "style": "Tony Hawk",
           "title": "Skater Black Sweatshirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img3}`,
         },
         {
@@ -69,6 +72,7 @@ export const products= [
           "style": "Tule",
           "title": "Black Tule Oversized",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img4}`
         },
         {
@@ -83,6 +87,7 @@ export const products= [
           "style": "Really Cool T-shirt",
           "title": "Black Batman T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img5}`
         },
         {
@@ -97,6 +102,7 @@ export const products= [
           "style": "Mark Zuck have 365 of this one",
           "title": "Blue T-Shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img6}`
         },
         {
@@ -111,6 +117,7 @@ export const products= [
           "style": "",
           "title": "Loose Black T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img7}`
         },
         {
@@ -125,6 +132,7 @@ export const products= [
           "style": "White T-shirt",
           "title": "Ringer Hall Pass",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img8}`
         },
         {
@@ -139,6 +147,7 @@ export const products= [
           "style": "You will like this one",
           "title": "Grey T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img9}`
         },
         {
@@ -153,6 +162,7 @@ export const products= [
           "style": "Adidas originals",
           "title": "Black T-shirt with white stripes",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img10}`
         },
         {
@@ -167,6 +177,7 @@ export const products= [
           "style": "Cowabunga!",
           "title": "Turtles Ninja T-shirt",
           "type": "jeans",
+          "quantity":1,
           'product_img':`${img11}`
         },
         {
@@ -181,6 +192,7 @@ export const products= [
           "style": "When you wish well",
           "title": "Slim black T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img12}`
         },
         {
@@ -195,6 +207,7 @@ export const products= [
           "style": "Very comfy",
           "title": "Blue Sweatshirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img13}`
         },
         {
@@ -209,6 +222,7 @@ export const products= [
           "style": "Girl the future is all your",
           "title": "White T-shirt Gucci",
           "type": "shirts",
+          "quantity":1,
           'product_img':`${img14}`
         },
         {
@@ -223,6 +237,7 @@ export const products= [
           "style": "",
           "title": "Tropical Wine T-shirt",
           "type": "T-shirt",
+          "quantity":1,
           'product_img':`${img15}`
         },
         {
@@ -237,6 +252,7 @@ export const products= [
           "style": "",
           "title": "Marine Blue T-shirt",
           "type": "pants",
+          "quantity":1,
           'product_img':`${img16}`
         }
 ]
